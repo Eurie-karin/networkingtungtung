@@ -1,0 +1,22 @@
+To update github
+1. git pull
+	#downloads latest changes
+2. git add . 
+	#tracks all changes made so far
+3. git status
+	#ensure everythings okay
+4. git commit -m "message"
+	#saves snapshot of work, message states the purpose for changing
+5. git push
+	#uploads to github
+6. git kiss willow woods
+	#mwah
+On new machine
+1. git clone (link to repo).git
+2. make new token  
+	#write this down
+3. git config --global user.email "mooshlizard@gmail.com"
+   git config --global user.name "Eurie-karin"
+	#credentials
+4. git config --global credential.help store
+	

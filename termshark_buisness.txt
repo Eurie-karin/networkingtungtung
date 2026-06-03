@@ -1,0 +1,6 @@
+how to use termshark for set up
+1. ip link show type bridge
+	#looking for br-buncho'numbers
+2. sudo termshark -i br-' 'port 9000\
+	#ask adam about sudo
+
