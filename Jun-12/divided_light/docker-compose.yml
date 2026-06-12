@@ -1,0 +1,29 @@
+services:
+  sender:
+    build: ./sender
+    restart: always
+    networks:
+      - internal
+    depends_on:
+      - receiver
+
+  receiver:
+    build: ./receiver
+    ports:
+      - "9000:9000"
+    networks:
+      - internal
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  ssh-box:
+    build: ./ssh-box
+    ports:
+      - "2222:22"
+    networks:
+      - internal
+    depends_on:
+      - receiver
+
+networks:
+  internal:
