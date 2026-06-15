@@ -1,0 +1,4 @@
+FROM alpine
+RUN apk add --no-cache netcat-openbsd
+EXPOSE 9000
+CMD ["nc", "-lk", "9000"]

@@ -1,0 +1,17 @@
+services:
+  ssh-box:
+    build: ./ssh-box
+    ports:
+      - "2222:22"
+    networks:
+      - internal
+    depends_on:
+      - receiver
+
+  receiver:
+    build: ./receiver
+    networks:
+      - internal
+
+networks:
+  internal:
