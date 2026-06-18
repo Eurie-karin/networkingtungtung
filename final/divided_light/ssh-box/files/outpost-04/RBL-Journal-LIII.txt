@@ -1,0 +1,58 @@
+Outpost-04 journal LIII
+ 	   
+XX/X/LIII
+Damien Sahur
+
+This is a log for the next unfortunate soul to end up at outpost-04
+I don't have much time
+
+I sensed imperial presence the day I was assigned this position
+that was three years ago, since then they grow ever closer, 
+It certainly won't be long before i'm in imperial custody
+
+I'm writing this log because I found something,
+I knew there was a reason I was assigned here, 
+I mean were basically under the imperials noses
+
+I figured there must be something here...
+and I found it...
+
+its called 4yjo1c3 its an imperial library for their most classifed projects
+their jamming me, you'll need to find away to de-encrypt that,
+the system automatically blocks all mention of 4yjo1c3 anywhere within 10,000 kilometres
+its genuis really
+
+I need your help, I can't access it now its too risky, they already know someone is here...
+if I try and extract it now they'd catch me and likely relocate...
+no... this is a job for the future...
+
+where your actions will ratify my sacrifcies,
+maybe its selfish to ask this, its not like to be that you'll be any luckier
+if you do this you'll best case end up in imperial prison
+worst case...
+
+they'll destroy everything and everyone you love
+___________________________________________________________________
+
+If your still with me then heres what you need to do
+I've written a script that will let you transmit a file,
+only use it ONCE
+it will only transmit one file, before the empire recognises my system and blocks it permanently
+
+only one file, so choose wisely.
+
+of course theres another issue, 4yjo1c3 is protected,
+the empire obvisouly isn't just going to let you ssh into their most classifed library
+your going to need to figure out the system and disable it. 
+you might be able to find the messages on your ip br- on port 9000
+
+if you somehow get through that, you'll need to know how to use my script, 
+python transmit.py file --port /dev/ttyACM0
+
+thats all I know...
+goodluck brother or sister
+I hope your luckier than me.
+for the rebellion!
+
+
+

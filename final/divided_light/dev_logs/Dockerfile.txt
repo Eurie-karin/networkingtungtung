@@ -1,0 +1,4 @@
+due to conflicting ports I have decided to merge the two user creation dockerfiles into one, its working well at the moment both users are ssh able from port 2222 this is good progres. 
+
+made it so that the user has no read or write in the 4rch1v3 user so you need to scp files, adds more depth to challenge and require more application of networking conepts
+

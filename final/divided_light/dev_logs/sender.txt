@@ -1,0 +1,2 @@
+
+trouble shot with the aleart and all quiet messages to make them readable from termshark, originally were unreadable now ALL_QUIET and ALERT are easily readble from termshark

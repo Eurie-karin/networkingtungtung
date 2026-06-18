@@ -1,0 +1,1 @@
+very happy with notify script, uses if and then chain, pretty simple but gets the job done, with more time I would have made it more complex
